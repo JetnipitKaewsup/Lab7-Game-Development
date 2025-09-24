@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://bqqgyqafm7xwp"]
+[gd_scene load_steps=18 format=3 uid="uid://bqqgyqafm7xwp"]
 
 [ext_resource type="Environment" uid="uid://bqnqgflivjvue" path="res://scenes/main-environment.tres" id="1_ahusb"]
 [ext_resource type="Script" uid="uid://djpme521r3cxe" path="res://scripts/main.gd" id="1_jkv2x"]
@@ -21,6 +21,9 @@ font = ExtResource("17_tk810")
 font_size = 48
 shadow_color = Color(0, 0, 0, 0.376471)
 shadow_offset = Vector2(2, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_jkv2x"]
+font_size = 20
 
 [node name="Main" type="Node3D"]
 script = ExtResource("1_jkv2x")
@@ -241,10 +244,11 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Name" type="Label" parent="HUD"]
 layout_mode = 0
-offset_left = 11.0
-offset_top = 16.0
-offset_right = 285.0
-offset_bottom = 39.0
+offset_left = 22.0
+offset_top = 18.0
+offset_right = 296.0
+offset_bottom = 41.0
 text = "673380299-1 Jetnipit Kaewsup Sec.1"
+label_settings = SubResource("LabelSettings_jkv2x")
 
 [connection signal="coin_collected" from="Player" to="HUD" method="_on_coin_collected"]
