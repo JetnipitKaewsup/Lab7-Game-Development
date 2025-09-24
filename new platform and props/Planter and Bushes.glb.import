@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cmke3ktj75apn"
-path="res://.godot/imported/Hedge.glb-37c7365149f50c82ba6cf04d28523c56.scn"
+uid="uid://c58fogb7xm5y4"
+path="res://.godot/imported/Planter and Bushes.glb-8f29ef1776e8b3add9e4ae13c1b4d700.scn"
 
 [deps]
 
-source_file="res://models/Hedge.glb"
-dest_files=["res://.godot/imported/Hedge.glb-37c7365149f50c82ba6cf04d28523c56.scn"]
+source_file="res://new platform and props/Planter and Bushes.glb"
+dest_files=["res://.godot/imported/Planter and Bushes.glb-8f29ef1776e8b3add9e4ae13c1b4d700.scn"]
 
 [params]
 
@@ -32,6 +32,12 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:RootNode/PlanterBushes": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=1
 gltf/embedded_image_handling=1

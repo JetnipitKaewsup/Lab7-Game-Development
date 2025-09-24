@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://c8up71en5djgm"]
+[gd_scene load_steps=6 format=3 uid="uid://c8up71en5djgm"]
 
 [ext_resource type="PackedScene" uid="uid://biyd6x403gvny" path="res://models/platform-falling.glb" id="1_gkggt"]
 [ext_resource type="Script" uid="uid://c1yo3ijh0gjjt" path="res://objects/platform_falling.gd" id="2_6ganw"]
+[ext_resource type="PackedScene" uid="uid://cu7qlb3gusxrr" path="res://new platform and props/falling platform.glb" id="3_1ryen"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_t551e"]
 size = Vector3(2, 0.1, 2)
@@ -19,8 +20,15 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
 shape = SubResource("BoxShape3D_t551e")
 
 [node name="platform-falling2#StaticBody3D" type="StaticBody3D" parent="." index="1"]
+visible = false
 
 [node name="platform-falling2_StaticBody3D#CollisionShape3D" type="CollisionShape3D" parent="platform-falling2#StaticBody3D" index="0"]
 shape = SubResource("ConcavePolygonShape3D_4mmvt")
+
+[node name="platform-falling2" parent="." index="2"]
+visible = false
+
+[node name="Root Scene" parent="." index="3" instance=ExtResource("3_1ryen")]
+transform = Transform3D(0.563429, 0, 0, 0, 0.563429, 0, 0, 0, 0.563429, 0, 0, 0)
 
 [connection signal="body_entered" from="Area3D" to="." method="_on_body_entered"]

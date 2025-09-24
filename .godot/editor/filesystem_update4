@@ -7,3 +7,11 @@ res://scripts/result.gd
 res://objects/result.tscn
 res://scenes/result.tscn
 res://scripts/main.gd
+res://objects/brick.tscn
+res://objects/platform.tscn
+res://objects/cloud.tscn
+res://objects/coin.tscn
+res://objects/platform_falling.tscn
+res://objects/platform_grass_large_round.tscn
+res://objects/platform_medium.tscn
+res://objects/character.tscn
