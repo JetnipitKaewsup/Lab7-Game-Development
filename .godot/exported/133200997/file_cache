@@ -11,5 +11,7 @@ res://objects/platform_falling.tscn::54d3e3c83498f9bdc6779c7a2a0fbf94::175863896
 res://objects/platform_grass_large_round.tscn::e9f3cb28e05172adfda1df35ab4979d9::1758638969::res://.godot/exported/133200997/export-801d858aa0930251b8fd1ecf660f0fc6-platform_grass_large_round.scn
 res://objects/platform_medium.tscn::547c9f579bc8293ef2f38034b40bf2ec::1758638969::res://.godot/exported/133200997/export-4027e1d400c579fc7b8935ac044a6191-platform_medium.scn
 res://objects/player.tscn::4577208addbee1ae35ff4c0b45f1d209::1758718322::res://.godot/exported/133200997/export-fd917217c4a5592248a679abd5f3a5fe-player.scn
-res://scenes/main-environment.tres::7f9ba0104d4e9b3f2f7f08e625831d40::1758712774::res://.godot/exported/133200997/export-28bf1ccc4abadd0ff8843f0750409a65-main-environment.res
-res://scenes/main.tscn::da0c920e137978c255061dd511b0cd63::1758719521::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://scenes/main-environment.tres::7f9ba0104d4e9b3f2f7f08e625831d40::1758719947::res://.godot/exported/133200997/export-28bf1ccc4abadd0ff8843f0750409a65-main-environment.res
+res://scenes/main.tscn::31e9c7a6b095219183c157da319649ab::1758722683::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://objects/flag.tscn::73f50cb80329706839151771ddfdac4f::1758722716::res://.godot/exported/133200997/export-74b84a697b7b93a5123edaae3a49babf-flag.scn
+res://scenes/result.tscn::972702e6a6ac6ac31c79e04ba4f93eea::1758722683::res://.godot/exported/133200997/export-803ebd0b5a511285b016d2734d7e5d1c-result.scn
