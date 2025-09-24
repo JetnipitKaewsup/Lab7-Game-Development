@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=3 uid="uid://6hg6udp7tpw5"]
+
+[ext_resource type="Script" uid="uid://chob7u4ga6qrp" path="res://scripts/result.gd" id="1_aqgun"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gn3o3"]
+bg_color = Color(0.786461, 0.503468, 0.599287, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_e0hes"]
+font_size = 50
+
+[node name="Result" type="CanvasLayer"]
+script = ExtResource("1_aqgun")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gn3o3")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -195.0
+offset_top = -136.0
+offset_right = 192.0
+offset_bottom = -67.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+text = "Congratulations"
+label_settings = SubResource("LabelSettings_e0hes")
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -133.0
+offset_top = -35.0
+offset_right = 373.0
+offset_bottom = 110.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.474319, 0.474319)
+theme_override_font_sizes/font_size = 100
+text = "Play Again"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

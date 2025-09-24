@@ -1,0 +1,9 @@
+res://scenes/main.tscn
+res://scenes/main-environment.tres
+res://scripts/flag.gd
+res://scripts/player.gd
+res://objects/flag.tscn
+res://scripts/result.gd
+res://objects/result.tscn
+res://scenes/result.tscn
+res://scripts/main.gd

@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 signal coin_collected
-
+signal win
 @export_subgroup("Components")
 @export var view: Node3D
 
@@ -45,24 +45,7 @@ func _physics_process(delta):
 
 	velocity = applied_velocity
 	move_and_slide()
-	'''
-	# Rotation
-
-	if Vector2(velocity.z, velocity.x).length() > 0:
-		rotation_direction = Vector2(velocity.z, velocity.x).angle()
-
-	rotation.y = lerp_angle(rotation.y, rotation_direction, delta * 10)
-	'''
-	'''
-	#Rotation
-	if animation.current_animation != "walk":
-		rotation.y = lerp_angle(rotation.y, view.rotation.y, delta * 10)
-	else :
-		if Vector2(velocity.z, velocity.x).length() > 0:
-			rotation_direction = Vector2(velocity.z, velocity.x).angle()
-
-		rotation.y = lerp_angle(rotation.y, rotation_direction, delta * 10)
-	'''
+	
 	if movement_velocity.length() < 0.1:
 		# ไม่มีการเดิน → หันหลังเข้ากล้อง
 		var target_angle = view.rotation.y + PI
