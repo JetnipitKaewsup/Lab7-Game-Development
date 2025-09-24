@@ -15,12 +15,22 @@ var camera_rotation:Vector3
 var zoom = 10
 
 @onready var camera = $Camera
-
+var rotating = false
+var sensitivity = 0.005
 func _ready():
-	
-	camera_rotation = rotation_degrees # Initial rotation
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED) #set mouse to center
+	camera_rotation = rotation_degrees
+	#camera_rotation = rotation_degrees # Initial rotation
+	#Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED) #set mouse to center
 	pass
+
+func _input(event):
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_RIGHT:
+		rotating = event.pressed
+		if rotating:
+			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+		else:
+			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+
 
 func _physics_process(delta):
 	
@@ -32,33 +42,17 @@ func _physics_process(delta):
 	camera.position = camera.position.lerp(Vector3(0, 0, zoom), 8 * delta)
 	
 	handle_input(delta)
-
+	
 # Handle input
 
 func handle_input(delta):
-	'''
-	# Rotation
-	var input := Vector3.ZERO
-
-	input.y = Input.get_axis("camera_left", "camera_right")
-	input.x = Input.get_axis("camera_up", "camera_down")
 	
-	camera_rotation += input.limit_length(1.0) * rotation_speed * delta
-	camera_rotation.x = clamp(camera_rotation.x, -80, -10)
-	'''
-	
-	# Rotation with mouse
-	var mouse_delta := Input.get_last_mouse_velocity()
-	camera_rotation.y -= mouse_delta.x * rotation_speed * delta * 0.1
-	camera_rotation.x -= mouse_delta.y * rotation_speed * delta * 0.1
-	# จำกัดไม่ให้หมุนเกินไป
-	#camera_rotation.x = clamp(camera_rotation.x, -80, 80)
-	
-	
-	
-
-	
-	
+	if rotating:
+		var mouse_motion = Input.get_last_mouse_velocity()
+		camera_rotation.y -= mouse_motion.x * sensitivity
+		camera_rotation.x -= mouse_motion.y * sensitivity
+		camera_rotation.x = clamp(camera_rotation.x, -80, 80)
+		rotation_degrees = camera_rotation
 	
 	
 	

@@ -10,10 +10,10 @@ sky_material = SubResource("PanoramaSkyMaterial_cme76")
 
 [resource]
 background_mode = 2
-background_color = Color(0.752941, 0.776471, 0.827451, 1)
+background_color = Color(0.93408, 0.93408, 0.93408, 1)
 sky = SubResource("Sky_7bk1c")
 ambient_light_source = 2
-ambient_light_color = Color(0.738923, 0.783198, 0.999999, 1)
+ambient_light_color = Color(0.589096, 0.589096, 0.589096, 1)
 tonemap_mode = 2
 tonemap_exposure = 0.9
 ssao_enabled = true

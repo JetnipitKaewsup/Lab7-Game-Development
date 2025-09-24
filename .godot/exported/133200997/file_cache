@@ -2,16 +2,16 @@ res://models/player/Jumping.tscn::1d54ce744a93458e1fca80105a1a398c::1758718323::
 res://models/player/Lab7_player_Model.tscn::0641e15e68edbe46509d36351eaf98a8::1758718322::res://.godot/exported/133200997/export-10555f51cabe5899e55e36e77e956a8c-Lab7_player_Model.scn
 res://models/player/Mixamo BoneMap.tres::f99377c0bf2d2bf0c9902d27cc300ba4::1758687028::res://.godot/exported/133200997/export-5d4f56add513f1f24f3b433337dc226e-Mixamo BoneMap.res
 res://models/colormap.tres::598fb45daebc9d34382f9101f85c6829::1758638969::res://.godot/exported/133200997/export-9e9af0f92a671b42e549c760911a8746-colormap.res
-res://objects/brick.tscn::e0c9ef5a220d6ba22a9c0c855389b1e6::1758726293::res://.godot/exported/133200997/export-a0c41b38d768221fe99fdaf6b22c4006-brick.scn
-res://objects/character.tscn::fddc64ee1a44d0fb291fa386e7fa79ed::1758726294::res://.godot/exported/133200997/export-8f7d3ee4570fef248acad980cd8779d7-character.scn
-res://objects/cloud.tscn::73c297393a9137c59b4bb426a513d12e::1758726293::res://.godot/exported/133200997/export-ec26967ad75336a0fcef924f1b0aae70-cloud.scn
-res://objects/coin.tscn::ade7485e9c9835896c2b81b2534f7ec7::1758726293::res://.godot/exported/133200997/export-95f0d95b3a03d7f40146d4fc05617007-coin.scn
-res://objects/platform.tscn::3b89539f18d1dd5469620b914087aa76::1758726294::res://.godot/exported/133200997/export-ec4b609243bec5305e015680eaee199e-platform.scn
-res://objects/platform_falling.tscn::23d1967926c3e8d94ce44a77fa8b9cb7::1758726294::res://.godot/exported/133200997/export-6d334e79e43cca2ab297a24f79a1c6b3-platform_falling.scn
-res://objects/platform_grass_large_round.tscn::8dad83ffd7043cc4e3471072dd09245d::1758726294::res://.godot/exported/133200997/export-801d858aa0930251b8fd1ecf660f0fc6-platform_grass_large_round.scn
-res://objects/platform_medium.tscn::07844939a70a5f290a0d482c22212cf4::1758726294::res://.godot/exported/133200997/export-4027e1d400c579fc7b8935ac044a6191-platform_medium.scn
+res://objects/brick.tscn::e0c9ef5a220d6ba22a9c0c855389b1e6::1758727122::res://.godot/exported/133200997/export-a0c41b38d768221fe99fdaf6b22c4006-brick.scn
+res://objects/character.tscn::fddc64ee1a44d0fb291fa386e7fa79ed::1758727122::res://.godot/exported/133200997/export-8f7d3ee4570fef248acad980cd8779d7-character.scn
+res://objects/cloud.tscn::73c297393a9137c59b4bb426a513d12e::1758727122::res://.godot/exported/133200997/export-ec26967ad75336a0fcef924f1b0aae70-cloud.scn
+res://objects/coin.tscn::ade7485e9c9835896c2b81b2534f7ec7::1758727122::res://.godot/exported/133200997/export-95f0d95b3a03d7f40146d4fc05617007-coin.scn
+res://objects/platform.tscn::3b89539f18d1dd5469620b914087aa76::1758727122::res://.godot/exported/133200997/export-ec4b609243bec5305e015680eaee199e-platform.scn
+res://objects/platform_falling.tscn::23d1967926c3e8d94ce44a77fa8b9cb7::1758727122::res://.godot/exported/133200997/export-6d334e79e43cca2ab297a24f79a1c6b3-platform_falling.scn
+res://objects/platform_grass_large_round.tscn::8dad83ffd7043cc4e3471072dd09245d::1758727122::res://.godot/exported/133200997/export-801d858aa0930251b8fd1ecf660f0fc6-platform_grass_large_round.scn
+res://objects/platform_medium.tscn::07844939a70a5f290a0d482c22212cf4::1758727122::res://.godot/exported/133200997/export-4027e1d400c579fc7b8935ac044a6191-platform_medium.scn
 res://objects/player.tscn::4577208addbee1ae35ff4c0b45f1d209::1758718322::res://.godot/exported/133200997/export-fd917217c4a5592248a679abd5f3a5fe-player.scn
 res://scenes/main-environment.tres::7f9ba0104d4e9b3f2f7f08e625831d40::1758719947::res://.godot/exported/133200997/export-28bf1ccc4abadd0ff8843f0750409a65-main-environment.res
-res://scenes/main.tscn::8cfc76abe4899de8a3957aca2c1a4d07::1758726293::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
-res://objects/flag.tscn::73f50cb80329706839151771ddfdac4f::1758726293::res://.godot/exported/133200997/export-74b84a697b7b93a5123edaae3a49babf-flag.scn
+res://scenes/main.tscn::8cfc76abe4899de8a3957aca2c1a4d07::1758727122::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://objects/flag.tscn::73f50cb80329706839151771ddfdac4f::1758727122::res://.godot/exported/133200997/export-74b84a697b7b93a5123edaae3a49babf-flag.scn
 res://scenes/result.tscn::972702e6a6ac6ac31c79e04ba4f93eea::1758722683::res://.godot/exported/133200997/export-803ebd0b5a511285b016d2734d7e5d1c-result.scn
